@@ -7,3 +7,5 @@
 # }
 
 Write-Output "This is a test."
+Write-Output "This is a test1."
+Write-Output "This is a test2."
