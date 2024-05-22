@@ -1,3 +1,5 @@
+Write-Output "This is a test."
+
 if ($?) {
     Write-Output "The previous command succeeded. Impossible to read this"
 } else {
