@@ -1,3 +1,5 @@
+echo "This is a test."
+
 if [ $? -eq 0 ]; then
     echo "The previous command succeeded. impossible to read this"
 else
