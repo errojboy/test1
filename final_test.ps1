@@ -17,19 +17,7 @@ function Update-Animation {
     }
 }
 
-function Print-Message {
-    $message = @"
-hey heyy, vandaag is het een speciale dag!
-
-
-ik weet nog dat je me ooit zei dat je van pruts dingetje hield dus geniet van je magneet steentje(ze zijn echt verslavend xddd)
-Ik ga je niet telang vervelen op je verjaardag maar beloof me dat je gaat genieten van jouw dagje en hopelijk tot snel :))
-"@
-    Write-Output $message
-}
-
 while ($true) {
-    Print-Message
     Update-Animation
     Start-Sleep -Milliseconds 200
     Clear-Host
