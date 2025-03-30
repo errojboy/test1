@@ -19,6 +19,6 @@ function Update-Animation {
 
 while ($true) {
     Update-Animation
-    Start-Sleep -Milliseconds 200
+    Start-Sleep -Milliseconds 100
     Clear-Host
 }
